@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "third_party/Munneke2023/PRef.mat",
+    "sha256": "d195f2012590bd2101e6d91b5fd8f8283c50e94b4a2bd5fb2318081d511214d9",
+    "tube_indices0": [
+      29,
+      30,
+      31,
+      32,
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  "formula": {
+    "artven_feedback": 0.15,
+    "tube_feedback": 0.2,
+    "critical_small_area_m2": 7.698e-07,
+    "mode": "原AdaptRest仅Diameter；不适应壁量、心肌、心包或阀口"
+  },
+  "ArtVen": {
+    "Name": [
+      "Ca",
+      "Br",
+      "Ce",
+      "Fe",
+      "Pu"
+    ],
+    "vImpact": [
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    "vFlowMean": [
+      [
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        0.17
+      ],
+      [
+        0.17,
+        0.17,
+        0.17,
+        0.17,
+        0.17
+      ]
+    ],
+    "WallStress": [
+      [
+        500000,
+        500000,
+        500000,
+        500000,
+        500000
+      ],
+      [
+        500000,
+        500000,
+        500000,
+        500000,
+        500000
+      ]
+    ]
+  },
+  "Tube": {
+    "Name": [
+      "AoBrAr",
+      "BrArCaAr",
+      "BrArCeAr",
+      "CeArFeAr",
+      "VcBrVe",
+      "BrVeCaVe",
+      "BrVeCeVe",
+      "CeVeFeVe"
+    ],
+    "vImpact": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "vFlowMean": [
+      0.17,
+      0.17,
+      0.17,
+      0.17,
+      0.17,
+      0.17,
+      0.17,
+      0.17
+    ],
+    "WallStress": [
+      500000,
+      500000,
+      500000,
+      500000,
+      500000,
+      500000,
+      500000,
+      500000
+    ]
+  }
+}

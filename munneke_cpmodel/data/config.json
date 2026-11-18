@@ -1,0 +1,16 @@
+{
+  "heart_backend": "Munneke2023_python_source",
+  "period_s": 0.85,
+  "dt_s": 0.0005,
+  "output_interval_s": 0.0025,
+  "solver": "OdeCA_physical_state",
+  "respiratory_rate_min": 12.0,
+  "muscle_pressure_min_cmh2o": -5.0,
+  "initial_status": "原PRef非冠脉循环为标定起点；正式运行从冻结标定参考初始化",
+  "patch_count": 20,
+  "coronary_network": false,
+  "coronary_supply_demand": false,
+  "circulation_backend": "Munneke_original_ArtVen_Tube_no_coronary",
+  "calibration_targets": {"baroreceptor_pressure_pa": 12200.0, "cardiac_output_m3_s": 0.000085, "feedback_gain": 0.3},
+  "removed_processes": ["冠脉血管网络", "冠脉供需与耗氧调节", "冠脉相关壁质量反馈", "正式运行PFC校正", "肾滤过/排尿", "水钠调节", "跨毛细血管体液交换/淋巴", "慢体液反馈"]
+}

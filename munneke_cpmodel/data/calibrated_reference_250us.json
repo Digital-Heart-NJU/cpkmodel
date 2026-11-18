@@ -1,0 +1,268 @@
+{
+  "accepted": true,
+  "physics_signature": {
+    "data/config.json": "1904a623bbe21782be0532d319bb8b4457c7f7cd038d149d30ec6eacb0ff3770",
+    "data/initial_state.json": "0af3615d9b9bf685c16003eec7f096b2a6611956ce8ab133300d25ce0f375885",
+    "data/munneke_parameters.json": "22d110ba7c5cdfedac431e49edf93adf42f51d52913f770fc6472c2616f091af",
+    "data/original_circulation.json": "1f223d21a39f6c54b0a7474780dbefa8afdb09ef3129f49e4f3c900b7be166d1",
+    "data/respiratory_parameters.json": "708c8cac4ee12e5c8c447027725dc8b18f332df3f761ddaad7edf93cf95d120b",
+    "cpmodel/circulation/reference_parameters.json": "e2beaa382dc69096b7c8136f66689f7e25ea50728c32c7101316f6ebd502f51f",
+    "cpmodel/__init__.py": "1d2f4e97366a5aae7eff602fcc8e0959730c0f0dc3a61e1fe173b8562cb03745",
+    "cpmodel/__main__.py": "9b53231c4909d1b8b21e8cf72627666b1ddba4d3df1d78b2e371e478fb4a98ac",
+    "cpmodel/calibration.py": "5228fc65db7a18a16cba1d51618fc84a0ceecd44fea75de5f771bbb44bcae004",
+    "cpmodel/circulation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cpmodel/circulation/boundary.py": "c934c6ebd8ee6d53fad660fca7655eb0922d4137a493b15f969ac73563e17621",
+    "cpmodel/circulation/model.py": "36992195c773ea323d3903d22161f4307540019572333ecb2ae3dcf9df326d70",
+    "cpmodel/circulation/parameters.py": "9e47aef9692ebd9d64e20c851c1d7e3b3204006e7fc328fdfd7851f1cd8a60b4",
+    "cpmodel/heart.py": "143d29d78bd06ba3fadc752f23643aa3fe1063a63f0a956608513b6ba1852637",
+    "cpmodel/heart_fast.py": "49143d85670131a211e62511b7e7b446df06f97c621f80067e5aeb6b8b4f1e52",
+    "cpmodel/model.py": "a68e5a6545d178f569e4505fd8e09114213968fa756b663583d072e2f7f65314",
+    "cpmodel/original_circulation.py": "7bab7d24a1c8e55831812269dac76f6a8e5e6f292169b0df621d246420f69c42",
+    "cpmodel/plot.py": "dc05abd89d8e0595d61eace6e78d945c1aa01672f5f2f9fa15b367c8f91783fd",
+    "cpmodel/regional_calibration.py": "060e1b3e59507b4e696c15a2e7c24c2562e80d68987723244079d160f29253a0",
+    "cpmodel/respiratory/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cpmodel/respiratory/boundary.py": "21ddd71326196b4b76a3f10ff1b15dfc3189fe2645da6586afa2d92cf2c50867",
+    "cpmodel/respiratory/kernel.py": "26463ec745b28fd4e4aebca0f4837c17b78559fc037cea99a571327d3a49c5a8",
+    "cpmodel/respiratory/parameters.py": "b510e549bac4b8231856a227a46a6f1cc0bb0445eb5e77eb853f1ae4fd77433b",
+    "cpmodel/respiratory/propagator.py": "d890880a8c4a08c7883eb8b6d1b5d49a1637aefd9eeb1e06999e7d46cacd8a15",
+    "cpmodel/rest_initialization.py": "1c5b889d55e8cc80a98e03784bc7164afb1db20650ce144a2b8d5c7fb4b448e8",
+    "cpmodel/runtime.py": "9f5fa4016b54ffbb392e59659b76b5417d23f83ce177133a50f983e45f888c07",
+    "cpmodel/settings.py": "d2d036860715f6c29a7e185d02c3621112bdb1a43742772a2d699038cc46bd53",
+    "cpmodel/solver_fast.py": "d2b059ef20da0db08c50611f5d6a26cabbd159150edbefc16e93fc2f4d697cd0",
+    "cpmodel/validation.py": "42eed1dc90cbbdac741ebd8bad0294ec7a59cdcbb9014bd9fe868703fe3c433e",
+    "cpmodel/vascular_adaptation.py": "acc5b9069a277c3ceb601c4a67db4c380682178810d805a2442782b20ae69e73",
+    "data/vascular_adaptation_parameters.json": "f211ac044f758a3719c7162de8e4b90612332d324fe92023db16ca14622da115"
+  },
+  "reference_sha256": "48ac554fcd9da97ddbc15795e98c623859b9c3784c993cb64ec55929d3131ddb",
+  "dt_s": 0.00025,
+  "wave_pressure_mode": "transmural",
+  "calibration_controller_active": false,
+  "targets": {
+    "baroreceptor_pressure_mmhg": 91.5075255789036,
+    "cardiac_output_L_min": 5.1,
+    "period_s": 0.85,
+    "artven_flow_m3_s": [
+      1.274999999999999e-05,
+      1.0200000000000024e-05,
+      4.845e-05,
+      1.359999999999999e-05,
+      8.5e-05
+    ]
+  },
+  "metrics": {
+    "LV_RV_CO_L_min": [
+      5.100983446795069,
+      5.100999341746291
+    ],
+    "MAP_mmhg": 91.46048846430051,
+    "baroreceptor_pressure_mmhg": 91.41898687775537,
+    "mean_PAP_mmhg": 6.532095662443421,
+    "mean_RAP_mmhg": -2.605899441822085,
+    "artven_flow_m3_s": [
+      1.2727341251656365e-05,
+      1.0214016581217684e-05,
+      4.850414832794357e-05,
+      1.3570999464294498e-05,
+      8.501631768160304e-05
+    ],
+    "min_cardiac_volume_ml": 17.651935638915305,
+    "blood_volume_ml": 1037.6552763766417,
+    "max_C": 1.81395715075848,
+    "max_blood_volume_error_ml": 7.155734338404329e-12,
+    "max_air_volume_error_L": 0.0,
+    "max_chest_invariant_error_L": 5.343281372915953e-12,
+    "minimum_blood_compartment_volume_ml": 8.858006263201595,
+    "relative_LV_RV_output_difference": 3.116657102332417e-06,
+    "pressure_target_relative_error": 0.00096755649973157,
+    "flow_target_relative_error": 0.00019439103346674536,
+    "block": 4,
+    "trajectory_difference": {
+      "pressure": 9.734426031584272e-12,
+      "flow": 4.94837373950465e-11,
+      "volume": 6.957463563885627e-12,
+      "heart_states": 4.9483737397313536e-11,
+      "wave_history": 1.157220024748337e-11
+    },
+    "consecutive_passes": 2,
+    "elapsed_wall_s": 9.012452499999199
+  },
+  "half_step_verification": {
+    "accepted": true,
+    "dt_s": 0.0005,
+    "half_step_dt_s": 0.00025,
+    "coarse": {
+      "LV_RV_CO_L_min": [
+        5.099740739880725,
+        5.09973371719569
+      ],
+      "MAP_mmhg": 91.54127711877452,
+      "baroreceptor_pressure_mmhg": 91.49905767716353,
+      "mean_PAP_mmhg": 6.535401414243872,
+      "mean_RAP_mmhg": -2.6119781888894047,
+      "artven_flow_m3_s": [
+        1.2747772693544023e-05,
+        1.020011805426009e-05,
+        4.845048964184354e-05,
+        1.3597232241595777e-05,
+        8.499485718512427e-05
+      ],
+      "min_cardiac_volume_ml": 17.524278532419842,
+      "blood_volume_ml": 1037.6552763766276,
+      "max_C": 1.8199285209366738,
+      "max_blood_volume_error_ml": 3.0357660829594124e-12,
+      "max_air_volume_error_L": 0.0,
+      "max_chest_invariant_error_L": 1.2251089032133677e-11,
+      "minimum_blood_compartment_volume_ml": 8.854002340136873,
+      "relative_LV_RV_output_difference": 1.376997065739985e-06,
+      "pressure_target_relative_error": 9.253776327677876e-05,
+      "flow_target_relative_error": 5.1523816037568615e-05,
+      "block": 3,
+      "trajectory_difference": {
+        "pressure": 1.8376096122227487e-11,
+        "flow": 3.34238403283872e-11,
+        "volume": 1.3531654530383655e-11,
+        "heart_states": 3.342384060221599e-11,
+        "wave_history": 1.0515798119183948e-11
+      },
+      "consecutive_passes": 2,
+      "elapsed_wall_s": 6.592913300002692
+    },
+    "fine": {
+      "LV_RV_CO_L_min": [
+        5.100983446795069,
+        5.100999341746291
+      ],
+      "MAP_mmhg": 91.46048846430051,
+      "baroreceptor_pressure_mmhg": 91.41898687775537,
+      "mean_PAP_mmhg": 6.532095662443421,
+      "mean_RAP_mmhg": -2.605899441822085,
+      "artven_flow_m3_s": [
+        1.2727341251656365e-05,
+        1.0214016581217684e-05,
+        4.850414832794357e-05,
+        1.3570999464294498e-05,
+        8.501631768160304e-05
+      ],
+      "min_cardiac_volume_ml": 17.651935638915305,
+      "blood_volume_ml": 1037.6552763766417,
+      "max_C": 1.81395715075848,
+      "max_blood_volume_error_ml": 7.155734338404329e-12,
+      "max_air_volume_error_L": 0.0,
+      "max_chest_invariant_error_L": 5.343281372915953e-12,
+      "minimum_blood_compartment_volume_ml": 8.858006263201595,
+      "relative_LV_RV_output_difference": 3.116657102332417e-06,
+      "pressure_target_relative_error": 0.00096755649973157,
+      "flow_target_relative_error": 0.00019439103346674536,
+      "block": 4,
+      "trajectory_difference": {
+        "pressure": 9.734426031584272e-12,
+        "flow": 4.94837373950465e-11,
+        "volume": 6.957463563885627e-12,
+        "heart_states": 4.9483737397313536e-11,
+        "wave_history": 1.157220024748337e-11
+      },
+      "consecutive_passes": 2,
+      "elapsed_wall_s": 9.012452499999199
+    },
+    "half_step_mean_relative_differences": {
+      "baroreceptor_pressure_mmhg": 0.0008758661864764691,
+      "MAP_mmhg": 0.0008833175487089129,
+      "mean_PAP_mmhg": 0.0005060782896150632,
+      "LV_RV_CO_L_min": [
+        0.00024366802242028866,
+        0.00024816167658836107
+      ],
+      "artven_flow_m3_s": [
+        0.001602466030404566,
+        0.0013626006821170114,
+        0.001107506421053229,
+        0.0019288806839175816,
+        0.00025247642916208593
+      ]
+    },
+    "maximum_half_step_mean_relative_difference": 0.0019288806839175816,
+    "half_step_waveform_difference": {
+      "pressure": 0.005683466371371302,
+      "flow": 0.008568211696606294,
+      "volume": 0.00435073581114253,
+      "heart_states": 0.008568211696606294
+    },
+    "pressure_target_BrAr_mmhg": 91.5075255789036,
+    "cardiac_output_target_L_min": 5.1,
+    "artven_target_flow_m3_s": [
+      1.274999999999999e-05,
+      1.0200000000000024e-05,
+      4.845e-05,
+      1.359999999999999e-05,
+      8.5e-05
+    ],
+    "common_period_s": 85,
+    "source_feedback_frozen": true,
+    "clinical_validation": false
+  },
+  "total_blood_volume_ml": 1037.6552763766417,
+  "p0av_pa": [
+    6456.653196835217,
+    5753.894319383741,
+    5894.896104395197,
+    6710.132609539705,
+    750.0000000000086
+  ],
+  "verification_result_folder": "regional_final_verification",
+  "reference_geometry": {
+    "av_p0": [
+      [
+        12325.078937248629,
+        12303.71274945967,
+        12317.683476204646,
+        12214.141237942042,
+        1469.7877188501666
+      ],
+      [
+        174.60786208554654,
+        345.46658893560135,
+        342.3390454173886,
+        179.69904450641624,
+        760.8760618482636
+      ]
+    ],
+    "av_a0": [
+      [
+        8.13797080154988e-05,
+        6.54896215167582e-05,
+        0.00029475873245248956,
+        8.678155726777077e-05,
+        0.000488796344272856
+      ],
+      [
+        0.00025956251452632787,
+        0.0029750917928943973,
+        0.014046395842216529,
+        0.00022738805207197377,
+        0.000536100292921538
+      ]
+    ],
+    "tube_p0": [
+      13359.199956277806,
+      12479.14532782153,
+      13596.748542982361,
+      12732.058192269853,
+      341.20846258727147,
+      6.688723459152743,
+      244.9859530119903,
+      13.051023350653791
+    ],
+    "tube_a0": [
+      0.0004908367331563562,
+      8.173237455476258e-05,
+      0.0003718509662903734,
+      0.00011387090689734062,
+      0.0005668049815942123,
+      8.185139548956024e-05,
+      0.00039797565888555523,
+      8.735603097480984e-05
+    ]
+  },
+  "numerical_method": "心血管OdeCA物理状态、守恒节点流；呼吸分段矩阵指数；跨壁波缓存",
+  "caveat": "仅原基准均值负荷及数值周期稳态验收，不构成临床外部验证"
+}

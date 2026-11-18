@@ -1,0 +1,139 @@
+{
+  "run": {
+    "heart_backend": "Munneke2023_python_source",
+    "circulation_backend": "Munneke_original_ArtVen_Tube_no_coronary",
+    "beats": 100,
+    "end_time_s": 85.0,
+    "dt_s": 0.0005,
+    "physical_states": 76,
+    "patch_count": 20,
+    "coronary_network": false,
+    "coronary_supply_demand": false,
+    "max_blood_volume_error_ml": 4.547473508864641e-12,
+    "max_air_volume_error_L": 0.0,
+    "last_beat": {
+      "LV_RV_CO_L_min": [
+        4.871448648547903,
+        6.182549858570169
+      ],
+      "MAP_mmhg": 89.0768023979808,
+      "baroreceptor_pressure_mmhg": 89.03594249364967,
+      "mean_PAP_mmhg": 5.722263751349555,
+      "mean_RAP_mmhg": -3.3262502950193853,
+      "artven_flow_m3_s": [
+        1.1929053823652028e-05,
+        8.659198020737065e-06,
+        3.910859748601494e-05,
+        1.2701369522055047e-05,
+        9.969303284891895e-05
+      ],
+      "min_cardiac_volume_ml": 17.977706389294347,
+      "blood_volume_ml": 1037.6552763766256,
+      "max_C": 1.6718507634671447,
+      "beat": 100,
+      "blood_volume_error_ml": 2.2737367544323206e-12,
+      "air_volume_error_L": 0.0
+    },
+    "circadapt_module_loaded": false,
+    "dll_required": false,
+    "matlab_required": false,
+    "formal_steady_reference": true,
+    "clinical_validation": false
+  },
+  "alignment": {
+    "event": "主动脉流量向上穿越1mL/s，后65ms内峰值至少20mL/s",
+    "original_start_s": 83.57064837793347,
+    "original_end_s": 84.42277102907632,
+    "duration_s": 0.8521226511428495,
+    "bracket_dt_s": 0.0024999999999977263,
+    "time_offset_only": true,
+    "time_rescaling": false,
+    "pressure_offset_mmhg": 0.0,
+    "smoothing": false,
+    "endpoint_interpolation": "仅对事件边界作线性插值，内部采样原样保留"
+  },
+  "selected_cycle": {
+    "duration_s": 0.8521226511428495,
+    "MAP_mmHg": 86.2257647213926,
+    "mPAP_mmHg": 5.683438581960997,
+    "CO_L_min": 4.987426412240965,
+    "RA": {
+      "mean_pressure_mmHg": -2.9083567065881932,
+      "minimum_pressure_mmHg": -5.482436955229406,
+      "maximum_pressure_mmHg": 0.49630737042191797,
+      "minimum_volume_ml": 20.917944017570164,
+      "maximum_volume_ml": 45.47645954300473,
+      "end_minus_start_volume_ml": 2.5374404076230164
+    },
+    "LA": {
+      "mean_pressure_mmHg": 0.3243082018412988,
+      "minimum_pressure_mmHg": -5.546676525175088,
+      "maximum_pressure_mmHg": 9.749940919174367,
+      "minimum_volume_ml": 19.482288258333526,
+      "maximum_volume_ml": 63.25216508468157,
+      "end_minus_start_volume_ml": 0.4586379133613576
+    },
+    "RV": {
+      "mean_pressure_mmHg": 2.048067524968135,
+      "minimum_pressure_mmHg": -5.17105691723004,
+      "maximum_pressure_mmHg": 22.300482681913728,
+      "minimum_volume_ml": 20.350903186430003,
+      "maximum_volume_ml": 105.48918874015307,
+      "end_minus_start_volume_ml": 10.087138900429878
+    },
+    "LV": {
+      "mean_pressure_mmHg": 35.84480803577145,
+      "minimum_pressure_mmHg": -3.1409180561837773,
+      "maximum_pressure_mmHg": 117.12156852494311,
+      "minimum_volume_ml": 48.27743252654131,
+      "maximum_volume_ml": 119.22943543968881,
+      "end_minus_start_volume_ml": 0.11538975637012072
+    },
+    "Ppl_range_mmHg": [
+      -5.524150726695783,
+      -4.750662326823376
+    ]
+  },
+  "whole_run": {
+    "duration_s": 84.99999999999999,
+    "MAP_mmHg": 91.54127711846665,
+    "mPAP_mmHg": 6.535401414260853,
+    "CO_L_min": 5.099740739883749,
+    "RA": {
+      "mean_pressure_mmHg": -2.61197818886676,
+      "minimum_pressure_mmHg": -5.785463448619309,
+      "maximum_pressure_mmHg": 0.8062943111616936,
+      "minimum_volume_ml": 20.180712134995265,
+      "maximum_volume_ml": 45.786331975666705,
+      "end_minus_start_volume_ml": 4.689582056016661e-13
+    },
+    "LA": {
+      "mean_pressure_mmHg": 1.434482139603825,
+      "minimum_pressure_mmHg": -5.76247733384974,
+      "maximum_pressure_mmHg": 12.45789259601447,
+      "minimum_volume_ml": 19.312789749466464,
+      "maximum_volume_ml": 68.1094203016707,
+      "end_minus_start_volume_ml": -8.72546479513403e-12
+    },
+    "RV": {
+      "mean_pressure_mmHg": 2.438609001535587,
+      "minimum_pressure_mmHg": -5.705734777354379,
+      "maximum_pressure_mmHg": 25.189216524382235,
+      "minimum_volume_ml": 17.524278532444796,
+      "maximum_volume_ml": 105.57635231194367,
+      "end_minus_start_volume_ml": 1.7149659470305778e-10
+    },
+    "LV": {
+      "mean_pressure_mmHg": 38.86757625331632,
+      "minimum_pressure_mmHg": -3.2889938448752924,
+      "maximum_pressure_mmHg": 131.0469292125148,
+      "minimum_volume_ml": 48.06249154830586,
+      "maximum_volume_ml": 130.0398265393327,
+      "end_minus_start_volume_ml": -6.765787929907674e-11
+    },
+    "Ppl_range_mmHg": [
+      -5.728577873030888,
+      -3.6723718295958534
+    ]
+  }
+}

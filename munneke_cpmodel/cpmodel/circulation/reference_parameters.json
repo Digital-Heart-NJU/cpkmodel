@@ -1,0 +1,291 @@
+{
+  "linear_pools": [
+    {
+      "name": "SA",
+      "compliance": 0.196,
+      "unstressed_volume": 0,
+      "thoracic": false
+    },
+    {
+      "name": "EP",
+      "compliance": 0.641886,
+      "unstressed_volume": 134.64,
+      "thoracic": false
+    },
+    {
+      "name": "SP",
+      "compliance": 0.686154,
+      "unstressed_volume": 274.4,
+      "thoracic": false
+    },
+    {
+      "name": "MP",
+      "compliance": 0.57288,
+      "unstressed_volume": 105.8,
+      "thoracic": false
+    },
+    {
+      "name": "HP",
+      "compliance": 0.10416,
+      "unstressed_volume": 24,
+      "thoracic": false
+    },
+    {
+      "name": "BP",
+      "compliance": 0.36456,
+      "unstressed_volume": 72.13,
+      "thoracic": false
+    },
+    {
+      "name": "EV",
+      "compliance": 14,
+      "unstressed_volume": 640.73,
+      "thoracic": false
+    },
+    {
+      "name": "SV",
+      "compliance": 42.777,
+      "unstressed_volume": 1435.4,
+      "thoracic": false
+    },
+    {
+      "name": "MV",
+      "compliance": 10.997,
+      "unstressed_volume": 503.26,
+      "thoracic": false
+    },
+    {
+      "name": "HV",
+      "compliance": 2.499,
+      "unstressed_volume": 98.21,
+      "thoracic": false
+    },
+    {
+      "name": "BV",
+      "compliance": 7.497,
+      "unstressed_volume": 294.64,
+      "thoracic": false
+    },
+    {
+      "name": "PA",
+      "compliance": 0.76,
+      "unstressed_volume": 0,
+      "thoracic": true
+    },
+    {
+      "name": "PP",
+      "compliance": 5.7014,
+      "unstressed_volume": 106.39992,
+      "thoracic": true
+    },
+    {
+      "name": "PV",
+      "compliance": 25.37,
+      "unstressed_volume": 105.6,
+      "thoracic": true
+    },
+    {
+      "name": "PS",
+      "compliance": 0.09860000000000001,
+      "unstressed_volume": 1.84008,
+      "thoracic": true
+    }
+  ],
+  "resistors": [
+    {
+      "name": "SA_EP",
+      "upstream": "SA",
+      "downstream": "EP",
+      "resistance": 0.002080262117752142,
+      "one_way": false
+    },
+    {
+      "name": "EP_EV",
+      "upstream": "EP",
+      "downstream": "EV",
+      "resistance": 6.540047290677262,
+      "one_way": false
+    },
+    {
+      "name": "EV_TV",
+      "upstream": "EV",
+      "downstream": "TV",
+      "resistance": 0.08321048471008569,
+      "one_way": true
+    },
+    {
+      "name": "SA_SP",
+      "upstream": "SA",
+      "downstream": "SP",
+      "resistance": 0.002080262117752142,
+      "one_way": false
+    },
+    {
+      "name": "SP_SV",
+      "upstream": "SP",
+      "downstream": "SV",
+      "resistance": 3.8850920007174645,
+      "one_way": false
+    },
+    {
+      "name": "SV_TV",
+      "upstream": "SV",
+      "downstream": "TV",
+      "resistance": 0.0790499604745814,
+      "one_way": true
+    },
+    {
+      "name": "SA_MP",
+      "upstream": "SA",
+      "downstream": "MP",
+      "resistance": 0.002080262117752142,
+      "one_way": false
+    },
+    {
+      "name": "MP_MV",
+      "upstream": "MP",
+      "downstream": "MV",
+      "resistance": 4.3812553660743685,
+      "one_way": false
+    },
+    {
+      "name": "MV_TV",
+      "upstream": "MV",
+      "downstream": "TV",
+      "resistance": 0.10401310588760711,
+      "one_way": true
+    },
+    {
+      "name": "SA_HP",
+      "upstream": "SA",
+      "downstream": "HP",
+      "resistance": 0.002080262117752142,
+      "one_way": false
+    },
+    {
+      "name": "HP_HV",
+      "upstream": "HP",
+      "downstream": "HV",
+      "resistance": 41.00422610065441,
+      "one_way": false
+    },
+    {
+      "name": "HV_TV",
+      "upstream": "HV",
+      "downstream": "TV",
+      "resistance": 0.46597871437647986,
+      "one_way": true
+    },
+    {
+      "name": "SA_BP",
+      "upstream": "SA",
+      "downstream": "BP",
+      "resistance": 0.002080262117752142,
+      "one_way": false
+    },
+    {
+      "name": "BP_BV",
+      "upstream": "BP",
+      "downstream": "BV",
+      "resistance": 13.869248416592173,
+      "one_way": false
+    },
+    {
+      "name": "BV_TV",
+      "upstream": "BV",
+      "downstream": "TV",
+      "resistance": 0.15601965883141064,
+      "one_way": true
+    },
+    {
+      "name": "PA_PP",
+      "upstream": "PA",
+      "downstream": "PP",
+      "resistance": 0.0488289400077796,
+      "one_way": false
+    },
+    {
+      "name": "PP_PV",
+      "upstream": "PP",
+      "downstream": "PV",
+      "resistance": 0.03662259912718255,
+      "one_way": false
+    },
+    {
+      "name": "PA_PS",
+      "upstream": "PA",
+      "downstream": "PS",
+      "resistance": 2.8234616486851376,
+      "one_way": false
+    },
+    {
+      "name": "PS_PV",
+      "upstream": "PS",
+      "downstream": "PV",
+      "resistance": 2.117596236513853,
+      "one_way": false
+    }
+  ],
+  "thoracic_vein": {
+    "d1": 0.3855,
+    "k1": 0.15,
+    "d2": -5,
+    "k2": 0.4,
+    "unstressed_volume": 130,
+    "vmin": 50,
+    "vmax": 350,
+    "kxp": 2,
+    "kxv": 8,
+    "kr": 0.001,
+    "r0": 0.025
+  },
+  "pleural_pressure": -3.6778,
+  "pulmonary_outflow_resistance": 0.012,
+  "metadata": {
+    "stage": "fluid_step3_vascular",
+    "renal_enabled": true,
+    "fluid_exchange_enabled": true,
+    "units": {
+      "volume": "mL",
+      "pressure": "mmHg",
+      "time": "s",
+      "flow": "mL/s"
+    },
+    "alpha_R": 2.080262117752142,
+    "archive_sha256": "3222f9ea8d3ea57886161a90e7e148af30bb477471fb38c1d7b49cf8e300d06f",
+    "source_files": [
+      "Cardio-respiratory-model-main/test/params/cardiovascular.dat",
+      "Cardio-respiratory-model-main/test/params/commonParams.dat"
+    ],
+    "reference_boundary": {
+      "systemic_inflow": 83.33333333333333,
+      "pulmonary_inflow": 83.33333333333333,
+      "right_atrial_pressure": 4.5,
+      "left_atrial_pressure": 8
+    },
+    "derivation": "第3步D02—D19：Qs=5000/60，Qr=Qs+.002；交换床Rin/Rout分别按参考qin与qout推导。",
+    "deviations": [
+      "TV的psi使用文献Kxp/expm1(V/Kxv)，原C++的exp(V/Kxv-1)不沿用。",
+      "所有压力由当前容积纯函数计算，避免原实现历史缓存。",
+      "e区已拆非肾交换床和肾通路；五个微循环单阻力仅作基础图占位，实际由Rin/Rout和J替代。"
+    ]
+  },
+  "pool_names": [
+    "SA",
+    "EP",
+    "SP",
+    "MP",
+    "HP",
+    "BP",
+    "EV",
+    "SV",
+    "MV",
+    "HV",
+    "BV",
+    "TV",
+    "PA",
+    "PP",
+    "PV",
+    "PS"
+  ]
+}
